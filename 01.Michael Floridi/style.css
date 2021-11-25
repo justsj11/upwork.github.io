@@ -3,12 +3,20 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 
 }
+
+p{
+    margin-top: 2rem;
+    margin-right: 2rem;
+    font-size: large;
+    font-style: normal;
+    max-width: 800px;
+}
 #logo_main {
     width: 8rem;
 }
 #header_menu {
     background-image: url(../AGCO_Page_web_desk/assets/header.jpg);
-    background-position:center;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
