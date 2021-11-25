@@ -1,16 +1,18 @@
 body{
     max-width: 1200px;
+    font-style: ;
 }
 
 #logo {
-    width:min-content;
+    width: 8rem;
 }
 
 #header_menu {
     background-image: url(../AGCO_Page_web_desk/assets/header.jpg);
     background-position:center;
     width: 100%;
-    padding: 10px 10px;
+    
+    
   
 }
 #menu_items {
