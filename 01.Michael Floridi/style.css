@@ -47,6 +47,13 @@ img {
     width: 100%;
     justify-content: space-between;
     padding: 3rem;
+    margin : 1.5rem;
+    font-size: 1.5rem;
+}
+
+#section_two {
+    margin: 1.5rem;
+    
 }
 
 h1, h3 {
@@ -103,8 +110,10 @@ h1, h3 {
 
   #card_section {
       display: flex;
-      
+      list-style: none;
       width: 100%;
+      margin: 1.5rem;
+      
   }
 
   #card_one_header {
