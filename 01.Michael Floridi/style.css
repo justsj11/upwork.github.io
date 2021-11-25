@@ -53,9 +53,11 @@ h1, h3 {
     color: blue;
 }
 
-#section_four {
-    margin: 3rem;
-    padding: 2rem;
+#section_five {
+    width: 100%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
 }
 /*Tabbed Section*/
 
@@ -93,4 +95,14 @@ h1, h3 {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+  }
+
+  #card_section {
+      display: flex;
+      flex-direction: row ;
+      width: 33.33%;
+  }
+
+  #card_one_header {
+      margin: 1rem;
   }
