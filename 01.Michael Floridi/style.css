@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 body{
     max-width: 1200px;
     font-family: 'Roboto Condensed', sans-serif;
     margin-left: 2rem;
+    min-width: fit-content;
+
+}
+.container {
+    border-style: solid;
+    border-radius: 2rem;
+    margin: 0.55rem;
+    padding: 0.5rem;
 
 }
 
@@ -21,7 +30,9 @@ p{
     background-image: url(./assets/header.jpg);
     background-size: contain;
     display: flex;
+    margin-left: 10rem;
     justify-content: space-between;
+    font-family:  'Roboto Condensed', sans-serif;;
     
     
 }
@@ -49,10 +60,10 @@ img {
 
 #section_one {
     display: flex;
-   
+    margin-left: 10rem;
+    margin-right: 5rem;
     justify-content: space-between;
     padding: 3rem;
-    margin : 1.5rem;
     font-size: 1.5rem;
     border-style: solid;
     border-radius: 2rem;
@@ -65,13 +76,7 @@ img {
     
     
 }
-.container {
-    border-style: solid;
-    border-radius: 2rem;
-    margin: 1.5rem;
-    padding: 1rem;
 
-}
 
 h1, h3 {
     color: blue;
@@ -120,16 +125,12 @@ h1, h3 {
 
 #section_five {
     width: 100%;
-    margin: 3rem 3rem;
-    padding: 2rem 2 rem;
-    width: 100%;
+    margin: 1.5rem 1.5rem;
 }
 
-  #card_section {
-      display: flex;
-      list-style: none;
-      width: 100%;
-      margin: 1.5rem;
+  #section_five{
+    list-style: none;
+    margin: 0.5rem;
       
   }
 
@@ -138,6 +139,14 @@ h1, h3 {
       padding: 0.5em;
   }
 
+  .card_content {
+      list-style:circle;
+  }
+ #card_section {
+     margin: 1.5rem;
+     display: flex;
+    
+ }
 
 
   #download_btn {
