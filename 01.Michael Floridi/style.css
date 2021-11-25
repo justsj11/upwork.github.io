@@ -1,3 +1,11 @@
+body{
+    max-width: 1200px;
+}
+
+#logo {
+    width:min-content;
+}
+
 #header_menu {
     background-image: url(../AGCO_Page_web_desk/assets/header.jpg);
     background-position:center;
@@ -32,3 +40,6 @@ img {
     padding: 3rem;
 }
 
+h1, h3 {
+    color: blue;
+}
