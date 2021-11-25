@@ -1,6 +1,7 @@
 body{
     max-width: 1200px;
     font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 2rem;
 
 }
 
@@ -16,18 +17,22 @@ p{
     width: 8rem;
 }
 #header_menu {
-    background-image: url(../AGCO_Page_web_desk/assets/header.jpg);
     height: 100%;
-    width: 100%;
+    background-image: url(./assets/header.jpg);
+    background-size: contain;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    
+    
 }
+
 #menu_items {
     display: flex;
-    background-image: url(./assets/header.jpg);
-    background-position: fixed;
     height: 100%;
     width: 100%;
+    padding: 2rem;
+    background: url(../AGCO_Page_web_desk/assets/header.jpg);
+    background-position:center;
 }
 li {
     width: 100%;
@@ -44,16 +49,28 @@ img {
 
 #section_one {
     display: flex;
-    width: 100%;
+   
     justify-content: space-between;
     padding: 3rem;
     margin : 1.5rem;
     font-size: 1.5rem;
+    border-style: solid;
+    border-radius: 2rem;
 }
 
 #section_two {
     margin: 1.5rem;
+    border-style: solid;
+    border-radius: 1.5rem;
     
+    
+}
+.container {
+    border-style: solid;
+    border-radius: 2rem;
+    margin: 1.5rem;
+    padding: 1rem;
+
 }
 
 h1, h3 {
