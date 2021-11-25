@@ -1,0 +1,28 @@
+#header_menu {
+    background-image: url(../AGCO_Page_web_desk/assets/header.jpg);
+    background-position:center;
+    width: 100%;
+    padding: 10px 10px;
+  
+}
+#menu_items {
+    display: flex;
+    background-image: url(./assets/header.jpg);
+    background-position: fixed;
+    height: 100%;
+    width: 100%;
+}
+li {
+    width: 100%;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+#section_one {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
